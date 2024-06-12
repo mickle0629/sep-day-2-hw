@@ -1,0 +1,29 @@
+:root {
+  --search-icon-size: 40px;
+  --title-color: #C22033;
+  --link-color: #007C89;
+  --title-font-size: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 60px 30px 60px;
+}
+
+.header__subscribe-btn {
+  font-family: 'Gotham Narrow Book', 'Verdana';
+  text-decoration: underline;
+  color: var(--link-color)
+}
+
+.header__blog-title {
+  font-family: 'Gotham Narrow Bold', 'Verdana';
+  color: var(--title-color);
+  font-size: var(--title-font-size)
+}
+
+.header__search-icon {
+  width: var(--search-icon-size);
+  height: var(--search-icon-size);
+}

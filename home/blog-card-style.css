@@ -1,0 +1,41 @@
+:root {
+  --title-color: #C22033;
+  --title-font: 'Gotham Narrow Bold', 'Verdana';
+  --link-color: #007C89;
+  --card-border-color: #67BAAF;
+  --description-font: 'Gotham Narrow Book', 'sans-serif';
+}
+
+* {
+  font-family: var(--description-font);
+}
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 30px 130px 40px 130px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 50px;
+  border: 1px solid var(--card-border-color);
+}
+
+.card__title {
+  font-family: var(--title-font);
+  font-size: 30px;
+  height: 30%;
+}
+
+.card__description {
+  height: 60%;
+  margin-top: 30px;
+}
+
+.card__cont-read {
+  text-align: end;
+}
