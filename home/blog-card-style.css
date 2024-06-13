@@ -44,7 +44,7 @@
   text-align: end;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 1000px) {
   .blog-cards {
     grid-template-columns: 100%;
     gap: 7px;
