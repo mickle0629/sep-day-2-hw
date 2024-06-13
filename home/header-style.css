@@ -27,3 +27,18 @@
   width: var(--search-icon-size);
   height: var(--search-icon-size);
 }
+
+@media screen and (max-width: 300px) {
+  .header {
+    margin: 15px
+  }
+
+  .header__search-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__blog-title {
+    font-size: 30px;
+  }
+}
